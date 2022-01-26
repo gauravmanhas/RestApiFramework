@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <!-- <class name="org.testing.testScripts.TC1_PostData"/>
+      <class name="org.testing.testScripts.TC2_GetData"/>
+      <class name="org.testing.testScripts.TC3_GetAll"/>
+      <class name="org.testing.testScripts.TC4_UpdateRecordUsingPut"/>
+      <class name="org.testing.testScripts.TC5_DeleteARecord"/>
+      <class name="org.testing.testScripts.TC6_ReadDummyXml"/> -->
+      <class name="org.testing.testScripts.TC7_PostComplexJson"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
