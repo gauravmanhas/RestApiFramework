@@ -26,10 +26,10 @@ public class TC7_PostComplexJson {
 		System.out.println("--------TC7--------");
 		Assert.assertEquals(res.statusCode(), 201);
 		ResponseValidator.softValidateStatusCode(201, res);
-		ResponseValidator.softValidateResponseData("LOVE LOVE LOVE", res, "store.book[1].title");
+		ResponseValidator.softValidateResponseData("Sword of Honour", res, "store.book[1].title");
 		
 		ResponseValidator.hardValidateStatusCode(201, res);
-		ResponseValidator.hardValidateResponseData("Love and Life", res, "store.book[1].title");
+		ResponseValidator.hardValidateResponseData("Sword of Honour", res, "store.book[1].title");
 		
 		
 		
